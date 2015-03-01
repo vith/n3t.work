@@ -10,7 +10,7 @@ module.exports = {
    },
 
    output: {
-      path: __dirname+"/assets",
+      path: __dirname+"/web/assets",
       publicPath: "/assets/",
       filename: "[name].bundle.js",
       chunkFilename: "[id].bundle.js"
