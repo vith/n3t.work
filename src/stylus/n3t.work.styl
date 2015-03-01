@@ -1,0 +1,40 @@
+vendors = official
+
+@import url("http://fonts.googleapis.com/css?family=Oregano")
+
+body
+  margin 0
+  font-family 'Oregano', cursive
+
+.container
+  height 100vh
+  display flex
+  align-items center
+  justify-content center
+  background-color #16a085
+
+
+.logo
+  font-size 15vmax
+  color #bdc3c7
+  pointer-events none
+  user-select none
+
+.dot
+  color #34495e
+
+.three
+  color #f1c40f
+  // animation-name spin
+  // animation-timing-function linear
+  // animation-iteration-count infinite
+  // animation-duration 12s
+  transform-style preserve-3d
+  transform rotateX(0) rotateY(0) rotateZ(0)
+  animation spin 12s infinite linear
+
+@keyframes spin
+  0%
+    transform rotateY(0deg)
+  100%
+    transform rotateY(360deg)

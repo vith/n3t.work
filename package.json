@@ -1,0 +1,21 @@
+{
+  "name": "@vith/n3t.work",
+  "version": "1.0.0",
+  "description": "n3t.work website",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer-loader": "^1.1.0",
+    "css-loader": "^0.9.1",
+    "style-loader": "^0.8.3",
+    "stylus": "^0.49.3",
+    "stylus-loader": "^0.5.0",
+    "webpack": "^1.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Papakostas",
+  "license": "MIT",
+  "private": true
+}
